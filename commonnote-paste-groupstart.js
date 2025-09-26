@@ -29,6 +29,15 @@ function getTranslations(langCode) {
             ["No notes in data.", "Aucune note trouvée."]
         ];
     }
+        if (langCode == "es-la") { // thank you Anjo for translation!
+        return [
+            [SCRIPT_TITLE, "Pegar commonnote (à sa position relative au groupe)"],
+            ["Cannot parse JSON.", "No puede leer de JSON."],
+            ["Invalid data.", "Datos inválidos."],
+            ["Invalid identifier.", "identificador inválido."],
+            ["No notes in data.", "Nigunos notes en datos."]
+        ];
+    }
     return [];
 }
 

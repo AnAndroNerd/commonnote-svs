@@ -31,6 +31,16 @@ function getTranslations(langCode) {
             ["Pasting out of group bounds. Continue?", "La copie est en dehors des limites du groupe. Voulez-vous continuer ?"]
         ];
     }
+        if (langCode == "es-la") { // thank you UTAU France for translation help!
+        return [
+            [SCRIPT_TITLE, "Pegar commonnote (en el cabezal de reproducción)"],
+            ["Cannot parse JSON.", "No puede leer de JSON."],
+            ["Invalid data.", "Datos inválidos."],
+            ["Invalid identifier.", "identificador inválido."],
+            ["No notes in data.", "Nigunos notes en datos."]
+            ["Pasting out of group bounds. Continue?", "La copie est en dehors des limites du groupe. Voulez-vous continuer ?"]
+        ];
+    }
     return [];
 }
 
