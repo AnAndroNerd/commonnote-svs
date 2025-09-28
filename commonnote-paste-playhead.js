@@ -38,7 +38,7 @@ function getTranslations(langCode) {
             ["Invalid data.", "Datos inválidos."],
             ["Invalid identifier.", "identificador inválido."],
             ["No notes in data.", "Nigunos notes en datos."]
-            ["Pasting out of group bounds. Continue?", "La copie est en dehors des limites du groupe. Voulez-vous continuer ?"]
+            ["Pasting out of group bounds. Continue?", "La copia esta en fuera de limite de grupe. ¿Quiero continuar?"]
         ];
     }
     return [];
