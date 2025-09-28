@@ -31,7 +31,7 @@ function getTranslations(langCode) {
     }
         if (langCode == "es-la") { // thank you Anjo for translation!
         return [
-            [SCRIPT_TITLE, "Pegar commonnote (à sa position relative au groupe)"],
+            [SCRIPT_TITLE, "Pegar commonnote (a la posición relativo de grupo)"],
             ["Cannot parse JSON.", "No puede leer de JSON."],
             ["Invalid data.", "Datos inválidos."],
             ["Invalid identifier.", "identificador inválido."],
